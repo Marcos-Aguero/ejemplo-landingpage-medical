@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Sans+Mono:wght@300&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600&display=swap');
+
+.quality{
+    width: 94%;
+    display: flex;
+    margin: 4rem;
+    &__img{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 700px;
+        }
+    }
+    &__text{
+        width: 40%;
+        font-family: 'Poppins',sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 3rem;
+        h3{
+            font-size: 40px;
+        }
+        p{
+            margin: 2rem 0;
+            font-size: 20px;
+        }
+        a{
+            background: #4288d8;
+            color: #fff;
+            padding: 12px 35px;
+            text-decoration: none;
+            margin-top: 25px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+            -webkit-box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+            -moz-box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+        }
+    }
+}

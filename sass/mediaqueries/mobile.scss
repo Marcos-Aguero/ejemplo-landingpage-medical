@@ -1,0 +1,106 @@
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .presentacion{
+        &__img {
+            display: none;
+        }
+        &__titulos{
+            width: 70%;
+            h1{
+            font-size: 30px;
+            }
+            p{
+            font-size: 15px;
+            }
+        }    
+    }
+    .cartas {
+        display: flex;
+        flex-direction: column;
+        &__body{
+            width: 380px;
+            margin: 1rem auto;
+        }
+    }
+    .soluciones{
+        flex-direction: column-reverse;
+        &__der{
+            width: 75%;
+            padding: 1rem;
+            margin-top: 1.5rem;
+        }
+        &__med, &__izq {
+            margin-top: 0;
+            width: 98%;
+        }
+    }
+    .safe{
+        display: flex;
+        flex-direction: column;
+        height: 147vh;
+        &__izq{
+            width: 93%;
+            padding: 43px;
+        }
+        &__der{
+            display: none;
+        }
+    }
+    .servicio{
+        &__titulo{
+            p{
+                width: 90%;
+            }
+        }
+        &__tarjetas{
+            &__card{
+                margin: 1rem;
+            }
+        }
+    }
+    .quality{
+        margin: 1rem;
+        &__img{
+            display: none;
+        }
+        &__text{
+            width: 90%;
+            h3{
+                font-size: 32px;
+            }
+        }
+    }
+    .pacientes{
+        padding: 50px;
+        &__comillas{
+            margin-left: -45px;
+            margin-top: -490px;
+        }
+        &__cards{
+            display: none;
+        }
+    }
+    .time{
+        width: 91%;
+        height: 46vh;
+        h2{
+            font-size: 25px;
+            text-align: center;
+        }
+        p{
+            width: 336px;
+        }
+    }
+    .footer{
+        &__support, &__product, &__security, &__subscribite{
+            display: none;
+        }
+        &__logo{
+            a{
+                text-align: center;
+            }
+        }
+    }
+}
+

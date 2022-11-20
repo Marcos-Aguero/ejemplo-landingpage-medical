@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Sans+Mono:wght@300&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600&display=swap');
+
+.cartas{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0;
+    &__body{
+        background: rgb(234, 245, 255);
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        border-radius: 6px;
+        box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+        -webkit-box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+        -moz-box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+        &__titulo{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            h5{
+                padding: 12px;
+                font-size: large;
+            }
+            img{
+                padding: 5px;
+                width: 50px;
+            }
+        }
+        &__texto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 50px;
+            }
+        }
+    }
+}

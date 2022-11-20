@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Sans+Mono:wght@300&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600&display=swap');
+
+.soluciones{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-family: 'Poppins',sans-serif;
+    width: 90%;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(201, 212, 228, 1) 0%, rgba(255, 255, 255, 1) 95%);
+    box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+    -webkit-box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+    -moz-box-shadow: 2px 4px 10px 4px rgba(38, 38, 38, 0.31);
+    &__izq, &__med {
+        width: 30%;
+        margin: 2rem;
+        &__check{
+            border-radius: 6px;
+            background: #fff;
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 65px;
+                margin: 1rem;
+            }
+            h5{
+            font-size: large;
+            }
+            p{
+                padding: 14px;
+                text-align: center;
+            }
+        }
+    }
+    &__med{
+        margin-top: 12rem;
+    }
+    &__der{
+        padding: 12rem;
+        width: 60%;
+        h3{
+            font-size: 30px;
+        }
+        p{
+            margin-top: 2rem;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Sans+Mono:wght@300&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600&display=swap');
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: 'Poppins',sans-serif;
+    h5{
+        font-size: 22px;
+        margin-top: 3.5rem;
+    }
+    p{
+        margin: 1rem 0;
+        align-items: flex-start;
+    }
+    &__logo{
+        display: flex;
+        flex-direction: column;
+        p{
+            margin-bottom: 2rem;
+        }
+        &__redes{
+            img{
+                width: 50px;
+                margin: 5px;
+            }
+        }
+    }
+    &__subscribite{
+        width: 300px;
+        img{
+            width: 50px;
+        }
+    }
+}
